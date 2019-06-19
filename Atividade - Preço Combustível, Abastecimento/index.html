@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<title>Quantos Litros!</title>
+		<meta charset="UTF-8"/>
+		<script src="js\calculo_med.js">
+		</script>
+	</head>
+	<body>
+		<form onsubmit="calculo_combus();">
+			<label>Preço da Gasolina:
+				<input type="float" id="txtValorC" required />
+			</label> <br/>
+			<label>Valor do abastecimento:
+				<input type="float" id="txtValorA" min="0" required />
+			</label> <br/>
+			
+			
+			<input type="submit" value="Calcular Volume em Litros Abastecido"/>
+			<input type="reset" value="Limpar Campos"/>
+		</form>
+	</body>
+</html>

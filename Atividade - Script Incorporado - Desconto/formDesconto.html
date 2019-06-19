@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>formDesconto</title>
+		<meta charset="UTF-8" />
+		
+		<script>
+		
+			function desc(){
+				var produto = document.getElementById("txtProduto").value;
+				var valor_prod = parseFloat(document.getElementById("txtVdP").value);
+				var desconto = 0.80;
+				var valor_desc = valor_prod * desconto;
+				
+				alert('Na promoção o produto '+produto+ ' custará: '+valor_desc.toFixed(2));
+						
+			}
+		</script>
+	</head>
+	
+	<body>
+		<form onsubmit="desc();">
+		
+			<label>Produto: 
+				<input type="txt" id="txtProduto" />
+			</label>
+			</br>
+			
+			<label>Valor do Produto:
+				<input type="number" id="txtVdP" />
+			</label>
+			</br>
+			
+			<input type="submit" value="Calcular Valor com Desconto" />
+			
+		</form>
+			
+		
+			
+			
+	
+	</body>
+	
+
+
+
+
+
+
+</html>

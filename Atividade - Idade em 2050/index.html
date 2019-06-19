@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<title>Cálculo da Idade</title>
+		<meta charset="UTF-8"/>
+		<script src="js\calculoIdade.js">
+		</script>
+	</head>
+	<body>
+		<form onsubmit="calculoIdade();">
+			<label>Nome:
+				<input type="text" id="txtNome" />
+			</label> <br/>
+			<label>Ano Atual:
+				<input type="number" id="txtAnoAtual" min="1900" max="2100" required />
+			</label> <br/>
+			<label>Ano de Nascimento:
+				<input type="number" id="txtNascimento" min="1900" max="2100" required />
+			</label><br/>
+			<input type="submit" value="Calcular Idade"/>
+			<input type="reset" value="Limpar Campos"/>
+		</form>
+	</body>
+</html>

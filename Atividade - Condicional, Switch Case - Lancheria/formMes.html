@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Cálculo do X</title>
+		<meta charset="UTF-8"/>
+		<script src="JS/funcao.js">
+		</script>
+	</head>
+	<center>
+	<body>
+		<form onsubmit="x();">
+			<table border=2>
+				<tr>
+					<td>CÓDIGO</td>
+					<td>ESPECIFICAÇÃO</td>
+					<td>PREÇO</td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>Cachorro Quente</td>
+					<td>R$ 4.00</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>X-Salada</td>
+					<td>R$ 4.50</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>X-Bacon</td>
+					<td>R$ 5.00</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Torrada Simples</td>
+					<td>R$ 2.00</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>Refrigerante</td>
+					<td>R$ 1.50</td>
+				</tr>
+
+
+
+
+			</table>
+		</br>
+
+			<label>Código do produto desejado: 
+				<input type="number" id="txtCod" max=5 min=1 />
+			</label>
+		</br>
+
+			<label>Quantidade desejada: 
+					<input type="number" id="txtQuant" min=1 max=30 />
+				</label>
+			</br>
+			</br>
+			<input type="submit" value="Conta Final"/>
+		</form>
+	</body>
+</center>
+</html>

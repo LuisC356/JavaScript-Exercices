@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Xsoftware Ltda</title>
+		<meta charset="UTF-8"/>
+		<script src="JS/funcao.js">
+		</script>
+	</head>
+	
+	<body>
+		<form onsubmit="Contas();">
+		
+		<table border=2>
+				<tr>
+					<td>CÓDIGO</td>
+					<td>CARGO</td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>G - Gerente</td>
+					
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>E - Engenheiro</td>
+					
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>T - Técnico</td>
+					
+			</table>
+			
+			</br>
+			</br>
+		
+			<label>Cargo(1-3): 
+				<input type="number" id="txtCargo" min=0 max=3  />
+			</label>
+			
+			</br>
+			</br>
+
+			<label>Salário: 
+					<input type="number" id="txtSal" min=0 />
+				</label>
+				
+			</br>
+			</br>
+			
+			<label>Tempo de serviço(anos): 
+					<input type="number" id="txtTime" min=0 />
+				</label>
+				
+			</br>
+			</br>
+			
+			
+			<input type="submit" value="CONSULTA DE SALÁRIO"/>
+			
+		</form>
+	</body>
+
+</html>

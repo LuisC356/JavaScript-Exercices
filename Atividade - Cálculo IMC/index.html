@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<title>Cálculo do IMC</title>
+		<meta charset="UTF-8"/>
+		<script src="js\calculo_imc.js">
+		</script>
+	</head>
+	<body>
+		<form onsubmit="calculo();">
+			<label>Nome:
+				<input type="text" id="txtNome" />
+			</label> <br/>
+			<label>Altura:
+				<input type="float" id="txtAltura" min="0" max="100" required />
+			</label> <br/>
+			<label>Peso:
+				<input type="float" id="txtPeso" min="0" max="100" required />
+			</label> <br/>
+
+			<input type="submit" value="Calcular IMC"/>
+			<input type="reset" value="Limpar Campos"/>
+
+		</form>
+	</body>
+</html>
